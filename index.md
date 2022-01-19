@@ -25,7 +25,7 @@
 
 | Task                	| Resources                                                                   	|
 |---------------------	|:---------------------------------------------------------------------------:	|
-| Plan (Jan ?)        	| Plan, Presentation                                                          	|
+| Plan (Jan ?)        	| [Plan](https://docs.google.com/document/d/14QxeoHnFuQLo7BTJuSw-KrAvPLcDGSH3LS-2jfyvKRk/edit?usp=sharing), [Presentation](https://docs.google.com/presentation/d/1kmdAu30W8piEKWQb_7UumVA865jnEVVrl48LRoAE1iw/edit?usp=sharing)                                                          	|
 | Milestone 4 (Feb ?) 	| Presentation, Progress Evaluation                                           	|
 | Milestone 5 (Mar ?) 	| Poster, e-book page, Presentation, Progress Evaluation                      	|
 | Milestone 6 (Apr ?) 	| User and/or Developer Manual, Demo video, Presentation, Progress Evaluation 	|
