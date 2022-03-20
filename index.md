@@ -27,6 +27,6 @@
 |---------------------	|:---------------------------------------------------------------------------:	|
 | Plan (Jan 19)        	| [Plan](https://docs.google.com/document/d/14QxeoHnFuQLo7BTJuSw-KrAvPLcDGSH3LS-2jfyvKRk/edit?usp=sharing), [Presentation](https://docs.google.com/presentation/d/1kmdAu30W8piEKWQb_7UumVA865jnEVVrl48LRoAE1iw/edit?usp=sharing)                                                          	|
 | Milestone 4 (Feb 14) 	| [Presentation](https://docs.google.com/presentation/d/11f1KWq1VvNFJDk-Ly1UrVVYYgnCoE0Oil7I5h1YEnr0/edit?usp=sharing), [Progress Evaluation](https://docs.google.com/document/d/1OwAoTDf6MjwgzQ8V6Co-YUxIROaNnCPEfc-49qKXOIM/edit?usp=sharing)                                           	|
-| Milestone 5 (Mar 21) 	| Poster, e-book page, Presentation, Progress Evaluation                      	|
+| Milestone 5 (Mar 21) 	| [Poster](https://docs.google.com/presentation/d/1aWAOJYNI98nVNCWIC9fFaJWvrLM50duL/edit?usp=sharing&ouid=105727006396956933958&rtpof=true&sd=true), [e-book page](https://docs.google.com/document/d/18Wpqz3c7peMi46qrux2LDMSZ3g32YeNE/edit?usp=sharing&ouid=105727006396956933958&rtpof=true&sd=true), [Presentation](https://docs.google.com/presentation/d/1GrqDR4adUkXo0zggXLHfz38CY3nFVM3fjjFzwdVeMrI/edit?usp=sharing), [Progress Evaluation](https://docs.google.com/document/d/1-Q-p7lke-INbq-BMC3oeWH4yYFSCaU_DWh3Fp-hiaKc/edit?usp=sharing)                      	|
 | Milestone 6 (Apr 18) 	| User and/or Developer Manual, Demo video, Presentation, Progress Evaluation 	|
 
