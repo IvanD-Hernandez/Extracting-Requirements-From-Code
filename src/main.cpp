@@ -17,13 +17,13 @@ using namespace std;
 void printFunction(File *FileObj);
 
 int main(int argc,char* argv[]){
-
   LinkedList* LogicTree = new LinkedList(); // Creates the Linked List Object.
   File* TestFile = New_File(argv[1]);
   TestFile->AddFileName(argv[1]);
   cout << "Reading File: " << argv[1]<< endl << endl;
+
   Read_File(argv[1], TestFile, LogicTree);
-  Parse_File_Methods(TestFile);
+  //Parse_File_Methods(TestFile);
   cout << "Printing Parsed Contents: " << endl << endl;
   printFunction(TestFile);
 
@@ -31,8 +31,6 @@ int main(int argc,char* argv[]){
   LogicTree->PrintList(); // Prints the Linked List that was created in Read_File();
 
 
-  cout << "Analyzing Text: " << endl << endl;
-  //Analyze_Text(TestFile);
 
 
 // try
