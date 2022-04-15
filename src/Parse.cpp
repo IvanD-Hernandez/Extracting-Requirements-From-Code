@@ -65,7 +65,7 @@ void Read_File(string file, File* Cur_File, LinkedList* Tree){
         else{ // -----------------------------In a method------------------------------
 
           if((temp.find('(') != -1) && (temp.find(')') != -1)
-          && (temp.find(';') != -1) && (temp.find("for") == -1)){
+          && (temp.find(';') != -1) && (temp.find("for") == -1)&& (temp.find("while") == -1)){
             CurrentMethod = StripString(temp);
             if(MethodName == "main"){
               inLink = Tree->InLinkedList(CurrentMethod);
