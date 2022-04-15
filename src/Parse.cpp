@@ -10,7 +10,7 @@
 
 //Reads the input File and stores the contents in a File class object
 void Read_File(string file, File* Cur_File, LinkedList* Tree){
-
+  cout << "in here"<<flush ;
   fstream FileObj;
 
   int BraceCounter = 0;
@@ -63,16 +63,24 @@ void Read_File(string file, File* Cur_File, LinkedList* Tree){
           }
         }
         else{ // -----------------------------In a method------------------------------
+
           if((temp.find('(') != -1) && (temp.find(')') != -1)
           && (temp.find(';') != -1) && (temp.find("for") == -1)){
             CurrentMethod = StripString(temp);
             if(MethodName == "main"){
-              Tree->CreateNode(CurrentMethod, MethodName); // New
+              inLink = Tree->InLinkedList(CurrentMethod);
+              if(inLink == false){
+                Tree->CreateNode(CurrentMethod, MethodName); // New
+              }
             }
             else{
               inLink = Tree->InLinkedList(MethodName);
               if(inLink == true){
+                inLink = Tree->InLinkedList(CurrentMethod);
+                if(inLink == false){
+
                 Tree->CreateNode(CurrentMethod, MethodName); // New
+              }
               }
             }
 
