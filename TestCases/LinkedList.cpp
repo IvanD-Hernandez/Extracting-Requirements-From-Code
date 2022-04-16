@@ -5,6 +5,27 @@
 using namespace std;
 
 
+
+int main(){
+
+
+	struct Node* head = NULL;
+
+	append(&head, 10);
+	push(&head, 20);
+
+	push(&head,30);
+	append(&head, 40);
+
+	insertAfter(head->next, 50);
+
+	cout << "Final List: " << endl;
+	DisplayList(head);
+
+	return 0;
+}
+
+
 struct Node /* Node has an integer data and a pointer to the next node*/
 {
 	int data;
@@ -68,25 +89,4 @@ void DisplayList(struct Node *node){		// Display the contents of the linked list
 	if (node == NULL){
 		cout << "Empty List" << endl;
 	}
-}
-
-
-
-int main(){
-
-
-	struct Node* head = NULL;
-
-	append(&head, 10);
-	push(&head, 20);
-
-	push(&head,30);
-	append(&head, 40);
-
-	insertAfter(head->next, 50);
-
-	cout << "Final List: " << endl;
-	DisplayList(head);
-
-	return 0;
 }
