@@ -1,59 +1,78 @@
-// For testing purposes only
-// Code from https://www.programiz.com/cpp-programming/examples/average-arrays
-
 #include <iostream>
 using namespace std;
 
-int TestFunc1(int value);
-void TestFunc2();
-void TestFunc3();
-void TestFunc4();
-void TestFunc5();
+int Equation1(int num1, int num2, int num3);
+int Equation2(int num1, int num2, int num3);
+int Equation3(int num1, int num2, int num3);
+int Sum(int num1, int num2);
+int Difference(int num1, int num2);
+int Multiply(int num1, int num2);
+int Divide(int num1, int num2);
+void PrintNum(int num,int Equation);
 
 int main()
 {
-    int n, i;
-    float num[100], sum=0.0, average;
+    int a,b,c,d,e;
 
-    cout << "Enter the numbers of data: "; // Comment One.
-    cin >> n;
+    cout << "Enter first number: "; // Comment One.
+    cin >> a;
 
-    while (n > 100 || n <= 0)
-    {
-        cout << "Error! number should in range of (1 to 100)." << endl;
-        cout << "Enter the number again: ";
-        cin >> n;
-    }
+    cout << "Enter second number: "; // Comment two.
+    cin >> b;
 
-    for(i = 0; i < n; ++i)
-    {
-        cout << i + 1 << ". Enter number: "; // Comment two.
-        cin >> num[i];
-        sum += num[i];
-    }
+    cout << "Enter third number: "; // Comment three.
+    cin >> c;
 
-    average = sum / n;
-    cout << "Average = " << average;
+    cout << "Enter fourth number: "; // Comment four.
+    cin >> d;
 
-    TestFunc2();
+    cout << "Enter fifth number: "; // Comment five.
+    cin >> e;
+
+
+    Equation1(a,b,c);
+    Equation2(e,d,c);
+    Equation3(a,c,e);
 
     return 0;
 }
 
-int TestFunc1(int value){
-  value = 5;
-  cout << value << endl;
+int Equation1(int num1, int num2, int num3){
+  int Answer = 0;
+  Answer = Sum(num1,num2);
+  Answer = Difference(Answer,num3);
+  PrintNum(Answer,1);
 }
-int TestFunc2(){
-    TestFunc3();
-    TestFunc5();
+int Equation2(int num1, int num2, int num3){
+  int Answer = 0;
+  Answer = Difference(num1,num2);
+  Answer = Difference(Answer,num3);
+  PrintNum(Answer,2);
+
 }
-int TestFunc3(){
-  TestFunc4();
+int Equation3(int num1, int num2, int num3){
+  int Answer = 0;
+  Answer = Sum(num1,num2);
+  Answer = Sum(Answer,num3);
+  PrintNum(Answer,3);
 }
-int TestFunc4(){
-  cout << " Does nothing"<< endl;
+
+int Sum(int num1, int num2){
+  int Answer = num1 + num2;
+  return Answer;
 }
-int TestFunc5(){
-  cout << " Does nothing"<< endl;
+int Difference(int num1, int num2){
+  int Answer = num1 - num2;
+  return Answer;
+}
+int Multiply(int num1, int num2){
+  int Answer = num1 * num2;
+  return Answer;
+}
+int Divide(int num1, int num2){
+  int Answer = num1 / num2;
+  return Answer;
+}
+void PrintNum(int num,int Equation){
+  cout << "Answer of Equation" << Equation << ": " << num << endl;
 }
