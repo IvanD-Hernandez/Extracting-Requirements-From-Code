@@ -76,11 +76,8 @@ void Read_File(string file, File* Cur_File, LinkedList* Tree){
             else{
               inLink = Tree->InLinkedList(MethodName);
               if(inLink == true){
-                inLink = Tree->InLinkedList(CurrentMethod);
-                if(inLink == false){
-
                 Tree->CreateNode(CurrentMethod, MethodName); // New
-              }
+
               }
             }
 
